@@ -25,3 +25,10 @@ for c in s.utf16{
 for c in s.unicodeScalars{
     print(c.value); print("\t")
 }
+
+
+// ソートーーーー
+var source = [1,52,73,16,35]
+
+var result = sorted(source) {$0 < $1}
+
